@@ -1,0 +1,196 @@
+.contact-form__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+
+.contact-form__heading {
+    margin-bottom: 40px;
+    text-align: center;
+    color: #8b7969;
+    font-family: Inika;
+    font-size: 35px;
+}
+
+.form {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+
+.form__group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form__label--required {
+    margin-left: 5px;
+    padding: 4px 6px;
+    border-radius: 3px;
+    background: #fafafa;
+    color: #aaa;
+}
+
+
+.form__error {
+    height: 20px;
+    color: #ff0000;
+    text-align: left;
+
+}
+
+.form-error {
+    display: flex;
+
+
+}
+
+.form__group1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+
+}
+
+/* エラーメッセージのスタイル */
+.form__error1,
+.form__error2 {
+    height: 20px;
+    color: #ff0000;
+    text-align: left;
+    width: 300px;
+
+}
+
+
+
+.form__input--text1 input {
+
+    padding: 10px;
+    width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    appearance: none;
+
+
+}
+
+.form__input--text2 input {
+
+    padding: 10px;
+    margin-left: 0px;
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    appearance: none;
+
+
+}
+
+
+.form__input--text input,
+.form__input--textarea textarea {
+    padding: 10px;
+    width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    appearance: none;
+}
+
+.form__input--text1 input {
+    padding: 10px;
+    width: 297px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+
+    appearance: none;
+}
+
+.form__input--text input {
+    height: 40px;
+}
+
+.form__input--textarea textarea {
+    height: 180px;
+}
+
+.form__button {
+    margin-top: 30px;
+}
+
+.form__button-submit {
+    padding: 10px;
+    width: 30%;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    background: #8b7969;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form__input--radio {
+    width: 600px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+    align-items: center;
+    font-size: 18px;
+    font-family: Inika;
+    color: #8b7969;
+}
+
+span {
+    color: #8b7969;
+    font-family: Inika;
+}
+
+.form__input--tel {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    /* ハイフンの間隔を調整 */
+}
+
+.form__input--tel input {
+    padding: 10px;
+    width: 189px;
+    /* 各 `input` のサイズを調整 */
+    height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    text-align: center;
+    appearance: none;
+
+}
+
+.form__hyphen {
+    font-size: 18px;
+    color: #8b7969;
+}
+
+.form__input--select select {
+    appearance: none;
+    /* デフォルトのスタイルを無効化 */
+    background: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 140"><polygon points="0,0 140,0 70,100" fill="%238b7969"/></svg>') no-repeat right 10px center;
+    /* ▼を右端に配置 */
+    background-size: 16px;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 30px;
+    /* ▼マークの分だけ余白を作る */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 40px;
+    width: 250px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #8b7969;
+
+}
+
+.form__input--select {
+    margin-right: 350px;
+}
